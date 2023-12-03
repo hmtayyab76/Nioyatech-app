@@ -1,0 +1,77 @@
+.tab-links {
+  display: flex !important;
+  align-items: center !important;
+  width: 100% !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  text-transform: none !important;
+}
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.input {
+  width: 140px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #d1d1d6 !important;
+  color: #8e8e93;
+}
+input[type="text"]:focus {
+  border: 3px solid rgb(63, 138, 196) !important;
+  outline: none;
+}
+.field {
+  margin: 10px 10px 20px 0px;
+}
+.field label {
+  font-family: "Inter";
+  font-style: normal;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #8e8e93;
+}
+.input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8e8e93;
+}
+.clearbtn {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  cursor: pointer;
+  margin-top: 25px !important;
+  text-decoration-line: underline;
+  color: #1c1c1e;
+}
+.exbtn {
+  border-radius: 5px;
+  border: 0;
+  margin: 10px;
+  padding: 5px 10px;
+  width: 137px;
+  height: 36px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+.goplaybtn {
+  background: #2196f3;
+}
+.assignbtn {
+  background: #219653;
+}
+.section p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1c1c1e;
+}
